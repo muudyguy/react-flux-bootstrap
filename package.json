@@ -1,0 +1,26 @@
+{
+  "name": "flux-bootstrap",
+  "version": "0.0.1",
+  "description": "A flux project",
+  "main": "js/app.js",
+  "dependencies": {
+    "flux": "^2.0.0",
+    "react": "^0.12.0",
+    "underscore": "^1.7.0",
+    "react-router" : "*"
+  },
+  "devDependencies": {
+    "vinyl-source-stream": "*",
+    "require-dir": "*",
+    "browserify": "~6.2.0",
+    "envify": "~3.0.0",
+    "react": "^0.12.0",
+    "reactify": "^0.15",
+    "watchify": "~2.1.0",
+    "gulp" : "*"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "Ozum Safaoglu"
+}
