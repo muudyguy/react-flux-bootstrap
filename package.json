@@ -5,19 +5,25 @@
   "main": "js/app.js",
   "dependencies": {
     "flux": "^2.0.0",
-    "react": "^0.12.0",
+    "react": "*",
     "underscore": "^1.7.0",
-    "react-router" : "*"
+    "react-router" : "*",
+    "express": "*",
+    "react-dom": "*",
+    "morgan": "*",
+    "gulp-util": "*",
+    "compression": "*"
   },
   "devDependencies": {
+    "browser-sync":"*",
     "vinyl-source-stream": "*",
     "require-dir": "*",
     "browserify": "~6.2.0",
     "envify": "~3.0.0",
-    "react": "^0.12.0",
     "reactify": "^0.15",
     "watchify": "~2.1.0",
-    "gulp" : "*"
+    "gulp" : "*",
+    "gulp-sass": "*"
   },
   "scripts": {
     "gulp": "gulp"

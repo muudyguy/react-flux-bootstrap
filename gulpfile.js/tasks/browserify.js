@@ -4,9 +4,9 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 
 
-gulp.task('browserify-and-watch', function() {
+gulp.task('browserify', function() {
 	var bundler = browserify({
-		entries: ['./js/entry.js'],
+		entries: ['./src/js/entry.js'],
 		transform: [reactify],
 		debug: true,
 		cache: {}, packageCache: {}, fullPaths: true
@@ -14,6 +14,6 @@ gulp.task('browserify-and-watch', function() {
 
 	bundler.bundle()
 			.pipe(source('app.js'))
-			.pipe(gulp.dest('./build/'));
+			.pipe(gulp.dest('./build/js'));
 });
 
